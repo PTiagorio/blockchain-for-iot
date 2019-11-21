@@ -11,7 +11,7 @@ This technology was first released in 1999, with the file sharing platform napst
 In evolution of these P2P networks, the Distributed Ledgers were born, denominated DLT (Distributed Ledger Technology), these networks use the fundamentals of P2P, as they also are decentralized, being the network composed by all the participants, but instead of sharing data amongst themselves, in Distributed Ledger technologies, the goal is to keep a record system in which every peer has to validate and generate his own copy of the record creating a consensus on the veracity of each item.
 Back to blockchain, Blockchain fits in the DLTs box, meaning it’s one implementation of a Distributed ledger Technology. Blockchain was first implemented in 2009 with Bitcoin, as the name suggests, it consists in keeping the records in blocks, which are linked together like a chain, hence the name. 
 
-![Dlt](https://gitlab.com/fikalab/blockchain-for-iot/blob/master/Blockchain/images/dlt.png)
+![Dlt](/Blockchain/images/dlt.png)
 
 Each Blockchain can have its own implementation when it comes to the blocks structure but there are three fundamental ones: previous hash, current block hash, timestamp and usually what we called nonce.
 Following is an example of a possible block.
