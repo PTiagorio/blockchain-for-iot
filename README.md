@@ -58,6 +58,21 @@ $ sudo apt-get install nodejs
 $ sudo apt-get install npm
 ```
 
+## Trabalho Futuro
+
+### Artificial Inteligence
+
+O grupo tenciona usar esta tecnologia em conjunto com as anteriormente descritas para resolver um qualquer sub-problema do nosso projeto. Existe a possibilidade de colocar Inteligência Artificial (AI) para resolver um problema real ao nível de um sistema real e que utilize esta arquitetura, podendo a mesma AI ser inserida na camada de IoT ou dos Smart Contract.
+
+**Exemplos Estudados:**
+* [**Multi-agent systems and decentralized artificial superintelligence**](https://arxiv.org/ftp/arxiv/papers/1702/1702.08529.pdf?fbclid=IwAR3WmMKDCE1_I-YbXA4wcTs1f6IfHaV1qNlmNMvQpjyWeu_kxFUU8LNA-ZE)
+* [**Enabling off-chain artificial intelligence for Ethereum with iExec**](https://medium.com/iex-ec/enabling-off-chain-artificial-intelligence-for-ethereum-with-iexec-804e640667c0)
+* [**Machine Learning with Blockchain Technology**](https://github.com/andcachia/Ethereum-MachineLearning?fbclid=IwAR0DTd_P9WJF8XEIPFr0WMpYYIrOG8-t3RQP_fl_z8n88JEKltutJ0EcPtI)
+
+### Private Blockchain
+
+O grupo pretende criar uma blockchain privada para o sistema, de forma a 
+
 ## Authors
 
 * **Tiago Ferreira** - Project Manager
