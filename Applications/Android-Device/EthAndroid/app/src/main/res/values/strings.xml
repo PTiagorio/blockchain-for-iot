@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoPiGo Remote Controller</string>
+    <string name="description">This application was built in order to control the GoPiGo robot
+        using Smart Contracts and IoT technologies. Click on the buttons to start moving it!</string>
+    <string name="big_description">This application is part of a ISEC 2019 Fikalab project which is entitled \"Blockchain
+        for IoT: A Smart Contracts Approach\" whose creators are as follow: Carlos Ferreira, Luís Silvestre and Rodrigo Rafael.\n\nThis application was built in order to control the GoPiGo robot
+        using Smart Contracts and IoT technologies.\nThe button below will transfer 0.1 ether to your wallet.Note that if you have above 1.1 ether you will not be allowed to request more ether.
+        Ether is a cryptocurrency and will allow you to execute transactions on the Smart Contract.
+    </string>
+</resources>

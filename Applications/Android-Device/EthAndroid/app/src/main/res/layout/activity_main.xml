@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--<FrameLayout
+        android:layout_width="164dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="600dp">
+
+        <Button
+            android:id="@+id/bConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:onClick="onConnect"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bDeploy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="onDeploy"
+            android:text="Button"
+            app:layout_constraintBottom_toTopOf="@+id/bWallet"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bConnect" />
+
+        <Button
+            android:id="@+id/bWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="onWallet"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/bLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:onClick="onLoad"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bConnect" />
+
+        <Button
+            android:id="@+id/bAddr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:onClick="onAddr"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bDeploy" />
+
+        <Button
+            android:id="@+id/baction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:layout_marginBottom="28dp"
+            android:onClick="onUp"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="@+id/bWallet"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bDeploy" />
+
+        <Button
+            android:id="@+id/bHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="185dp"
+            android:onClick="onHistory"
+            android:text="Button"
+            app:layout_constraintBottom_toTopOf="@+id/bDeploy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bLoad" />
+
+    </FrameLayout> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/test"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/genView"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="#ffffff"
+                >
+            </TextView>
+            <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="GoPiGo Remote Controller"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textColor="#0F255A"
+            android:background="#FFFFFF"
+            android:layout_weight="0.8"
+            android:autoSizeTextType="uniform"></TextView>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_menu_help"
+                android:background="#FFFFFF"
+                android:onClick="onHelp"
+                android:layout_weight="0.1"></ImageButton>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/texto"
+            android:text="@string/description"
+            android:fontFamily="sans-serif"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:layout_weight=".1"
+            android:autoSizeTextType="uniform"
+            ></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"
+            android:id="@+id/hearts">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.33"
+                android:background="#FFFFFF"
+                android:src="@drawable/heart2"
+                android:id="@+id/heart1"></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.33"
+                android:background="#FFFFFF"
+                android:src="@drawable/heart2"
+                android:id="@+id/heart2"></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.33"
+                android:background="#FFFFFF"
+                android:src="@drawable/heart2"
+                android:id="@+id/heart3"></ImageView>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:background="#E4E1CF"
+            android:layout_weight=".75"
+            >
+
+            <ImageButton
+                android:id="@+id/ibFrente"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal|top"
+                android:background="@drawable/frente"
+                android:onClick="onUp">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ibEsquerda"
+
+                android:layout_marginLeft="25dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical|left"
+                android:background="@drawable/esquerda"
+                android:onClick="onLetf">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ibDireita"
+                android:layout_marginRight="25dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/direita"
+                android:onClick="onRight">
+            </ImageButton>
+
+            <ImageButton
+                android:onClick="onDown"
+                android:id="@+id/ibTras"
+                android:layout_marginBottom="25dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="@drawable/tras">
+            </ImageButton>
+
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#E4E1CF"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+=============== Oct 28, 2019 (WET) ===============
+18:20:07.363372 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:20:07.595216 db@open opening
+18:20:07.595680 version@stat F·[] S·0B[] Sc·[]
+18:20:07.665976 db@janitor F·2 G·0
+18:20:07.666030 db@open done T·70.773978ms
+=============== Oct 28, 2019 (WET) ===============
+19:05:05.241164 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:05:05.260026 version@stat F·[] S·0B[] Sc·[]
+19:05:05.260049 db@open opening
+19:05:05.260132 journal@recovery F·1
+19:05:05.276063 journal@recovery recovering @1
+19:05:05.327929 memdb@flush created L0@2 N·2 S·180B "n:\f..seq,v2":"version,v1"
+19:05:05.328208 version@stat F·[1] S·180B[180B] Sc·[0.25]
+19:05:05.418459 db@janitor F·3 G·0
+19:05:05.418509 db@open done T·158.45025ms
+19:16:13.594623 db@close closing
+19:16:13.594816 db@close done T·192.132µs
+=============== Oct 28, 2019 (WET) ===============
+19:16:21.155240 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:16:21.215020 version@stat F·[1] S·180B[180B] Sc·[0.25]
+19:16:21.215056 db@open opening
+19:16:21.215133 journal@recovery F·1
+19:16:21.215247 journal@recovery recovering @3
+19:16:21.263668 memdb@flush created L0@5 N·1 S·164B "n:\f..seq,v4":"n:\f..seq,v4"
+19:16:21.263866 version@stat F·[2] S·344B[344B] Sc·[0.50]
+19:16:21.356176 db@janitor F·4 G·0
+19:16:21.356202 db@open done T·141.139239ms
+19:50:51.110688 db@close closing
+19:50:51.121724 db@close done T·11.044763ms
+=============== Oct 30, 2019 (WET) ===============
+17:15:23.538995 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:15:23.651719 version@stat F·[2] S·344B[344B] Sc·[0.50]
+17:15:23.651743 db@open opening
+17:15:23.651817 journal@recovery F·1
+17:15:23.651946 journal@recovery recovering @6
+17:15:24.078885 memdb@flush created L0@8 N·1 S·164B "n:\f..seq,v6":"n:\f..seq,v6"
+17:15:24.079553 version@stat F·[3] S·508B[508B] Sc·[0.75]
+17:15:24.490000 db@janitor F·5 G·0
+17:15:24.490050 db@open done T·838.298828ms
+17:17:09.324026 db@close closing
+17:17:09.348019 db@close done T·23.990492ms
