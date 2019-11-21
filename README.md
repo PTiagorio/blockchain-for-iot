@@ -62,7 +62,7 @@ $ sudo apt-get install npm
 
 ### Artificial Inteligence
 
-The group intends to use this technology in conjunction with those previously described to solve any sub-problem of our project. There is the possibility of placing Artificial Intelligence (AI) to solve a real problem at the level of a real system using this architecture, and the same AI could be inserted in the IoT or Smart Contract layer.
+The group intends to use this technology in conjunction with those previously described to solve any sub-problem of our project. There is the possibility of placing Artificial Intelligence (AI) to solve a real problem at the level of a real system using this architecture, and the same AI could be inserted onto the IoT or Smart Contracts layer.
 
 **Studied Examples:**
 * [**Multi-agent systems and decentralized artificial superintelligence**](https://arxiv.org/ftp/arxiv/papers/1702/1702.08529.pdf?fbclid=IwAR3WmMKDCE1_I-YbXA4wcTs1f6IfHaV1qNlmNMvQpjyWeu_kxFUU8LNA-ZE)
@@ -71,7 +71,7 @@ The group intends to use this technology in conjunction with those previously de
 
 ### Private Blockchain
 
-The group intends to built from scratch a private blockchain for the system to reduce blockchain execution time and make the system more personal and adequate.
+The group intends to built  a private blockchain from scratch in order to reduce blockchain execution time and make the system more personal and adequate.
 
 ## Authors
 
