@@ -2,7 +2,7 @@
 
 In this section we specify all the necessary GoPiGo files and information for our project.
 
-![GoPiGo Image](/Cloud/Images/image11.jpg)
+![GoPiGo Image](/Cloud/Images/image11.jpg "GoPiGo Image")
 
 ## Operatig System
 
