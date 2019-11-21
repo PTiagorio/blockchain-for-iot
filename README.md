@@ -1,4 +1,4 @@
-# Blockchain for IoT: a Smart Contracts Approach
+# Blockchain for IoT: An AI and Smart Contracts Approach
 
 This project consists of a proof-of-concept based on a conceptually simple problem: a system built for a robot car to be controlled by several mobile phones. However, the approach to this problem was made with cutting-edge, complex, innovative and technically challenging technologies: Internet of Things, Cloud and Blockchain.
 
