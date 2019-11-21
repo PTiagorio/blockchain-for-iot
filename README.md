@@ -71,7 +71,7 @@ The group intends to use this technology in conjunction with those previously de
 
 ### Private Blockchain
 
-The group intends to create a private blockchain for the system to reduce blockchain execution time and make the system more personal and non-transferable.
+The group intends to built from scratch a private blockchain for the system to reduce blockchain execution time and make the system more personal and non-transferable.
 
 ## Authors
 
