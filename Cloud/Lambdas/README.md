@@ -16,4 +16,4 @@ All Lambdas are built with an existing function that gives you access to all exi
 
 **Note**: Function handlers variate, so be careful about this. An example of a handler is shown below through "**lambda.lambda_handler**":
 
-![Function Handler Example](/Cloud/Images/image8.png)
+![Function Handler Example](/Cloud/Images/image8.png "Function Handler Example")
