@@ -71,7 +71,7 @@ The group intends to use this technology in conjunction with those previously de
 
 ### Private Blockchain
 
-The group intends to built  a private blockchain from scratch in order to reduce blockchain execution time and make the system more personal and adequate.
+The group intends to build a private blockchain from scratch, in order to reduce blockchain execution time and make the system more personal and adequate.
 
 ## Authors
 
