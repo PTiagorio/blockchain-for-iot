@@ -11,12 +11,12 @@ This technology was first released in 1999, with the file sharing platform napst
 In evolution of these P2P networks, the Distributed Ledgers were born, denominated DLT (Distributed Ledger Technology), these networks use the fundamentals of P2P, as they also are decentralized, being the network composed by all the participants, but instead of sharing data amongst themselves, in Distributed Ledger technologies, the goal is to keep a record system in which every peer has to validate and generate his own copy of the record creating a consensus on the veracity of each item.
 Back to blockchain, Blockchain fits in the DLTs box, meaning it’s one implementation of a Distributed ledger Technology. Blockchain was first implemented in 2009 with Bitcoin, as the name suggests, it consists in keeping the records in blocks, which are linked together like a chain, hence the name. 
 
-![Dlt](/Blockchain/images/dlt.png)
+![Dlt](/Blockchain/images/dlt.png "Distributed Leger Technology vs Centralized Technology")
 
 Each Blockchain can have its own implementation when it comes to the blocks structure but there are three fundamental ones: previous hash, current block hash, timestamp and usually what we called nonce.
 Following is an example of a possible block.
 
-![Block](https://gitlab.com/fikalab/blockchain-for-iot/blob/master/Blockchain/images/block.png)
+![Block](/Blockchain/images/block.png "Block")
 
 One of the most important features of the Blockchain is immutability, meaning once the consensus is reached in the network and the block is appended to the blockchain it cannot be changed, that’s achieved with the current block hash and previous hash mentioned above. In a blockchain block all the data of the registered transactions, note that each block can record more than one transaction, is encrypted and will be transformed into a hashcode, what this means is that the hash will modify if any of the block data changes, so in a situation where all the blocks have their previous hash, changing one block will consequently change all of the network, making it impossible to modify the network once the blocks are validated and appended in the chain.
 
