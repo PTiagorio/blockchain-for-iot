@@ -28,26 +28,26 @@ In conjunction with **IoT Greengrass**, this service is used to run local code o
 
 *RaspEstatico* is waiting for an event to be triggered by the blockchain network, when that happens, the *RaspEstatico* connects to the Cloud through **AWS IoT Core**, publishing a Message Queuing Telemetry Transport (MQTT) which contains the desired direction. Then, the **AWS IoT Greengrass** has a topic subscription for each direction and a corresponding **AWS Lambda** function, which runs locally in the GoPiGo to move it.
 
-![Cloud Pathway](https://github.com/l-silvestre/fikalab/blob/master/Cloud/Images/image10.png)
+![Cloud Pathway](/Cloud/Images/image10.png)
 
 An zoomed version of Cloud architecture:
-![Cloud Pathway](https://github.com/l-silvestre/fikalab/blob/master/Cloud/Images/image2.png)
+![Cloud Pathway](/Cloud/Images/image2.png)
 
-**NOTE:** Details of how *RaspEstatico* MTQQ is sent can be found in the [*RaspEstatico* folder](https://github.com/l-silvestre/fikalab/tree/master/Cloud/RaspEstatico). Details of how **IoT Greengrass** was installed on GoPiGo in order to make it an IoT device and perform tasks locally can be found in the [GoPiGo folder](https://github.com/lsilvestre/fikalab/tree/master/Cloud/GoPiGo).
+**NOTE:** Details of how *RaspEstatico* MTQQ is sent can be found in the [*RaspEstatico* folder](/Cloud/RaspEstatico). Details of how **IoT Greengrass** was installed on GoPiGo in order to make it an IoT device and perform tasks locally can be found in the [GoPiGo folder](/Cloud/GoPiGo).
 
 ## Cloud API Details
 
 The greengrass subscriptions used for forwarding messages within the Cloud can be seen in the following image:
-![Cloud Pathway](https://github.com/l-silvestre/fikalab/blob/master/Cloud/Images/image3.png)
+![Cloud Pathway](/Cloud/Images/image3.png)
 
 For Greengrass subscriptions to receive the information provided by *RaspEstatico*, it had to be inserted into the IoT Greengrass as a device. A tutorial on how to do this can be seen [here](https://docs.aws.amazon.com/greengrass/latest/developerguide/device-group.html).
-![Cloud Pathway](https://github.com/l-silvestre/fikalab/blob/master/Cloud/Images/image4.png)
+![Cloud Pathway](/Cloud/Images/image4.png)
 
 Also for the Greengrass subscriptions works, we needed to insert the respective Lambda functions as shown [here](https://docs.aws.amazon.com/greengrass/latest/developerguide/config-lambda.html). We used an 30s timeout with 256MB of memory limit and *on-demand* feature in all the lambdas functions:
-![Cloud Pathway](https://github.com/l-silvestre/fikalab/blob/master/Cloud/Images/image5.png)
+![Cloud Pathway](/Cloud/Images/image5.png)
 
 In order to get the GoPiGo moving, we needed to unlock the spidev 0.0 and 0.1 of the raspberry in the GoPiGo as shown in the image:
-![Cloud Pathway](https://github.com/l-silvestre/fikalab/blob/master/Cloud/Images/image6.png)
+![Cloud Pathway](/Cloud/Images/image6.png)
 
 ## Folder Structure
 
