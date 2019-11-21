@@ -19,7 +19,7 @@ For the first entity, smartphones were identified, as it would be an easy way to
 
 All that remained was to identify how the technologies would be used together. After several brainstorming sessions and several iterations, the group came up with a system architecture:
 
-![General Architecture](/Blockchain-for-IoT/Cloud/Images/image1.png "General Architecture")
+![General Architecture](/blockchain-for-iot/Cloud/Images/image1.png "General Architecture")
 
 In this mockup the entities identified earlier are present. Bridging the gap between them and this mockup: the controlling entities are the mobile phones; The communication entity is the Raspberry Pi, which is commonly referred to as *RaspEstatico* in our project; and finally the GoPiGo which is the controlled entity.
 
