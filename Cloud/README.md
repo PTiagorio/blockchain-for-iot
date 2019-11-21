@@ -28,26 +28,26 @@ In conjunction with **IoT Greengrass**, this service is used to run local code o
 
 *RaspEstatico* is waiting for an event to be triggered by the blockchain network, when that happens, the *RaspEstatico* connects to the Cloud through **AWS IoT Core**, publishing a Message Queuing Telemetry Transport (MQTT) which contains the desired direction. Then, the **AWS IoT Greengrass** has a topic subscription for each direction and a corresponding **AWS Lambda** function, which runs locally in the GoPiGo to move it.
 
-![Cloud Pathway](/Cloud/Images/image10.png)
+![Cloud Pathway](/Cloud/Images/image10.png "Cloud Pathway")
 
 An zoomed version of Cloud architecture:
-![Cloud Pathway](/Cloud/Images/image2.png)
+![Cloud Pathway Zoomed](/Cloud/Images/image2.png "Cloud Pathway Zoomed")
 
 **NOTE:** Details of how *RaspEstatico* MTQQ is sent can be found in the [*RaspEstatico* folder](/Cloud/RaspEstatico). Details of how **IoT Greengrass** was installed on GoPiGo in order to make it an IoT device and perform tasks locally can be found in the [GoPiGo folder](/Cloud/GoPiGo).
 
 ## Cloud API Details
 
 The greengrass subscriptions used for forwarding messages within the Cloud can be seen in the following image:
-![Cloud Pathway](/Cloud/Images/image3.png)
+![Greengrass Subscriptions](/Cloud/Images/image3.png "Greengrass Subscriptions")
 
 For Greengrass subscriptions to receive the information provided by *RaspEstatico*, it had to be inserted into the IoT Greengrass as a device. A tutorial on how to do this can be seen [here](https://docs.aws.amazon.com/greengrass/latest/developerguide/device-group.html).
-![Cloud Pathway](/Cloud/Images/image4.png)
+![Greengrass Devices](/Cloud/Images/image4.png "Greengrass Devices")
 
 Also for the Greengrass subscriptions works, we needed to insert the respective Lambda functions as shown [here](https://docs.aws.amazon.com/greengrass/latest/developerguide/config-lambda.html). We used an 30s timeout with 256MB of memory limit and *on-demand* feature in all the lambdas functions:
-![Cloud Pathway](/Cloud/Images/image5.png)
+![Greengrass Lambdas](/Cloud/Images/image5.png "Greengrass Lambdas")
 
 In order to get the GoPiGo moving, we needed to unlock the spidev 0.0 and 0.1 of the raspberry in the GoPiGo as shown in the image:
-![Cloud Pathway](/Cloud/Images/image6.png)
+![Greengrass Resources](/Cloud/Images/image6.png "Greengrass Resources")
 
 ## Folder Structure
 
