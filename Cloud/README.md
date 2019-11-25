@@ -26,7 +26,7 @@ In conjunction with **IoT Greengrass**, this service is used to run local code o
 
 ## Cloud Pathway Explained
 
-*RaspEstatico* is waiting for an event to be triggered by the blockchain network, when that happens, the *RaspEstatico* connects to the Cloud through **AWS IoT Core**, publishing a Message Queuing Telemetry Transport (MQTT) which contains the desired direction. Then, the **AWS IoT Greengrass** has a topic subscription for each direction and a corresponding **AWS Lambda** function, which runs locally in the GoPiGo to move it.
+*RaspEstatico* is waiting for an event to be triggered by the blockchain network, when that happens, the *RaspEstatico* connects to the Cloud through **AWS IoT Core**, publishing a Message Queuing Telemetry Transport (MQTT) which contains the desired direction. Then, the **AWS IoT Greengrass** has a topic subscription for each direction and a corresponding **AWS Lambda** function, which runs locally in the GoPiGo to move it (using the concept of [Edge Computing](https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing/)).
 
 ![Cloud Pathway](/Cloud/Images/image10.png "Cloud Pathway")
 
