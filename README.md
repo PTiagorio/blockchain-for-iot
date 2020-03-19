@@ -6,9 +6,15 @@ This project is based on the idea of bringing these two technologies together, t
   * Auditability and immutability from Blockchain
   * Cloud processing delegation capability and scalability of node numbers from the Cloud and the Internet of Things
 
+We created then an general architecture that would combine the technologies above:
+
+![General Architecture](/Cloud/Images/image12.png "General Architecture")
+
+As shown in the above mockup, some general devices could be active members of an private or public Blockchain. That Blockchain, with the help of an server which would do the comunication between the Blockchain and the Cloud, could create an secured management of IoT use cases, such as smart cities, smart greenhouses or even critical facilities like banks.
+
 ## Path Taken
 
-After conceiving the basic idea for our project, a solution was needed to demonstrate that the system could be implemented in reality. A simple problem where there is a robot-car being controlled by someone has been identified as a good approach.
+After conceiving the basic idea and architecture for our project, a solution was needed to demonstrate that the system could be implemented in reality. A simple problem where there is a robot-car being controlled by someone has been identified as a good approach.
 
 The group looked at relatively inexpensive and intuitive technologies. We had to get hardware to simulate three different entities in our problem:
 1. The controlling entity
@@ -17,13 +23,13 @@ The group looked at relatively inexpensive and intuitive technologies. We had to
 
 For the first entity, smartphones were identified, as it would be an easy way to demonstrate several controlling entities, because smartphones are a fairly common technology today. For the second entity the Raspberry Pi was identified, since it is a computer about the size of a credit card, being versatile and cheap. Finally for the third entity was discovered GoPiGo, a robot with wheels prefabricated to support a Raspberry Pi. The discovery of the GoPiGo was an important catalyst to cement our solution, as it is relatively easy to demonstrate results when the third entity has real actions, in this case moving to where the user commands it.
 
-All that remained was to identify how the technologies would be used together. After several brainstorming sessions and several iterations, the group came up with a system architecture:
+All that remained was to identify how the technologies would be used together. After several brainstorming sessions and several iterations, the group came up with the technologies that would be used in our own project:
 
-![General Architecture](/Cloud/Images/image9.png "General Architecture")
+![General Architecture](/Cloud/Images/image9.png "Architecture of Our Project")
 
-In this mockup the entities identified earlier are present. Bridging the gap between them and this mockup: the controlling entities are the mobile phones; The communication entity is the Raspberry Pi, which is commonly referred to as *RaspEstatico* in our project; and finally the GoPiGo which is the controlled entity.
+In this mockup the entities identified earlier are present. Bridging the gap between them and this mockup: the controlling entities are the mobile phones; The communication entity is the Raspberry Pi, which is commonly referred to as RaspEstatico in our project; and finally the GoPiGo which is the controlled entity.
 
-The blockchain is present between mobile phones and  the *RaspEstatico*. Blockchain will allow all commands made by mobile phones to be known to all nodes of the network and to have immutability and auditability characteristics. The cloud / IoT serves as a bridge between the *RaspEstatico* and GoPiGo. Software will be used to have GoPiGo subscribed to the cloud, which can make all subscribed devices move when *RaspEstatico* communicates a command. In our case there is only one GoPiGo, but scalability is one of the main features of this system, because of the use of IoT through the Cloud.
+The blockchain is present between mobile phones and  the RaspEstatico. Blockchain will allow all commands made by mobile phones to be known to all nodes of the network and to have immutability and auditability characteristics. The cloud / IoT serves as a bridge between the RaspEstatico and GoPiGo. Software will be used to have GoPiGo subscribed to the cloud, which can make all subscribed devices move when RaspEstatico communicates a command. In our case there is only one GoPiGo, but scalability is one of the main features of this system, because of the use of IoT through the Cloud.
 
 The technical aspects of the technologies used will be explained in the read-me files of other folders, but in general the communication between system nodes can be summarized by:
 1. A command given by a mobile phone user to move the car (touch of a button)
