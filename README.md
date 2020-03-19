@@ -33,13 +33,13 @@ The technical aspects of the technologies used will be explained in the read-me 
 
 ## Repository Structure
 
-* Blockchain
+* Blockchain :
 This directory is for all Blockchain information and content
-* Applications
+* Applications :
 This directory contains the two Apps from this project
-* Cloud
+* Cloud :
 This directory has the information about the Cloud technologies
-* Presentations 
+* Presentations : 
 In this directory are stored presentations developed by the group throughout the project
 
 ## GLOBAL PRE-REQUISITES
