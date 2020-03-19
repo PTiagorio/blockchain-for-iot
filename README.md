@@ -6,11 +6,11 @@ This project is based on the idea of bringing these two technologies together, t
   * Auditability and immutability from Blockchain
   * Cloud processing delegation capability and scalability of node numbers from the Cloud and the Internet of Things
 
-We created then an general architecture that would combine the technologies above:
+We created then a general architecture that would combine the technologies above:
 
 ![General Architecture](/Cloud/Images/image12.png "General Architecture")
 
-As shown in the above mockup, some general devices could be active members of an private or public Blockchain. That Blockchain, with the help of an server which would do the comunication between the Blockchain and the Cloud, could create an secured management of IoT use cases, such as smart cities, smart greenhouses or even critical facilities like banks.
+As shown in the above mockup, some general devices could be active members of a private or public Blockchain. That Blockchain, with the help of a server that would do the communication between the Blockchain and the Cloud, could create an secured management of IoT use cases, such as smart cities, smart greenhouses or even critical facilities like banks.
 
 ## Path Taken
 
